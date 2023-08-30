@@ -1,3 +1,4 @@
+import ReactMarkdown from 'react-markdown';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getIssue } from '../../services/apiInstance';
@@ -38,7 +39,7 @@ function IssueDetail() {
         </div>
       </div>
       <div className="issue-body">
-        <p>{issue.body}</p>
+        <ReactMarkdown>{issue.body}</ReactMarkdown>
       </div>
     </div>
   );
