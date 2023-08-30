@@ -1,5 +1,5 @@
 export interface Issue {
-  url: string; // issue url (specific page)
+  url: string;
   repository_url: string;
   labels_url: string;
   comments_url: string;
@@ -7,13 +7,13 @@ export interface Issue {
   html_url: string;
   id: number;
   node_id: string;
-  number: number; // issue number
-  title: string; // issue title
+  number: number;
+  title: string;
   user: {
-    login: string; // author
+    login: string;
     id: number;
     node_id: string;
-    avatar_url: string; // author profile image (specific page)
+    avatar_url: string;
     gravatar_id: string;
     url: string;
     html_url: string;
@@ -33,7 +33,7 @@ export interface Issue {
     id: number;
     node_id: string;
     url: string;
-    name: 'CLA Signed';
+    name: string;
     color: string;
     default: boolean;
     description: null;
@@ -43,8 +43,8 @@ export interface Issue {
   assignee: null;
   assignees: [];
   milestone: null;
-  comments: number; // comment count
-  created_at: string; // created date
+  comments: number;
+  created_at: string;
   updated_at: string;
   closed_at: null;
   author_association: 'NONE';
@@ -57,7 +57,7 @@ export interface Issue {
     patch_url: string;
     merged_at: null;
   };
-  body: string; // body
+  body: string;
   reactions: {
     url: string;
     total_count: number;

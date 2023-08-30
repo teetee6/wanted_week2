@@ -19,9 +19,6 @@ function IssueDetail() {
     return <div>Loading...</div>;
   }
 
-  if (issue) {
-    console.info(issue);
-  }
   return (
     <div className="issue-detail">
       <div className="issue-header">
