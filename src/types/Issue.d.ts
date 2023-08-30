@@ -26,19 +26,20 @@ export interface Issue {
     repos_url: string;
     events_url: string;
     received_events_url: string;
-    type: 'User';
+    type: 'User' | 'Bot';
     site_admin: boolean;
   };
   labels: {
     id: number;
     node_id: string;
     url: string;
+    // eslint-disable-next-line no-restricted-globals
     name: string;
     color: string;
     default: boolean;
     description: null;
   }[];
-  state: 'open';
+  state: 'open' | 'closed' | 'all';
   locked: boolean;
   assignee: null;
   assignees: [];
