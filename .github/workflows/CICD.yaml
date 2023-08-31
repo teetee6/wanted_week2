@@ -3,7 +3,7 @@ name: CI/CD-12th
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   cicd:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: 'master'
+          ref: 'main'
       - run: npm ci
       - run: npm run test
       - run: npm run build
