@@ -2,6 +2,8 @@
 
 - 본 repository는 [원티드 프리온보딩 프론트엔드 2주차 과제](https://lean-mahogany-686.notion.site/Week-2-a28eb717312a434498ea431d2ff8fc17)입니다.
 
+- [배포서버](http://preonboarding-week2-hyoshik.s3-website-ap-southeast-2.amazonaws.com/)
+
 ### 기술 스택
 
 <div>
@@ -24,6 +26,15 @@ $ git clone https://github.com/teetee6/wanted_week2.git
 
 ```javascript
 $ npm install && npm start
+```
+
+⚠️주의!
+
+```
+로컬에서 실행하려면 루트 프로젝트 위치에 .env.local파일을 만들고,
+REACT_APP_GITHUB_TOKEN={{값}} 이 필요합니다.
+{{값}}은 github Fine-grained access tokens으로서,
+(https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#keeping-your-personal-access-tokens-secure)를 따라 발급받을 수 있습니다.
 ```
 
 <br/>
