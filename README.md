@@ -19,13 +19,13 @@
 1. Clone the repo
 
 ```javascript
-$ git clone https://github.com/teetee6/wanted_week2.git
+git clone https://github.com/teetee6/wanted_week2.git
 ```
 
 2. Install NPM packages and getting start!
 
 ```javascript
-$ npm install && npm start
+npm install && npm start
 ```
 
 ⚠️주의!
