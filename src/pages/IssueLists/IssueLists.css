@@ -1,0 +1,48 @@
+.issue {
+  width: 100%;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.issue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.issue-header strong {
+  flex: 2;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+.issue-header p {
+  flex: 8;
+}
+
+.issue-content {
+  display: flex;
+}
+
+.issue-comment-wrapper {
+  align-self: flex-end; /* 오른쪽에 붙이기 */
+  margin-right: 20px; /* 적절한 간격 조정 */
+}
+
+.advertisement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.advertisement a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.advertisement img {
+  max-width: 100%;
+  height: auto;
+}

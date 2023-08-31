@@ -1,0 +1,20 @@
+.issue-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.issue-avatar {
+  margin-left: 3rem;
+}
+
+.issue-comment {
+  margin-right: 3rem;
+}
+
+.author-avatar {
+  max-height: 7rem;
+}
+
+.issue-body {
+  margin: 1rem;
+}
