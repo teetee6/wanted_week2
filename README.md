@@ -163,6 +163,9 @@ import ReactMarkdown from 'react-markdown';
 
 마크다운 라이브러리를 사용하였습니다.
 
+</div>
+</details>
+
 ### 3. 배포
 
 <details>
